@@ -66,16 +66,22 @@ The backend is divided into multiple layers:
 
 Controller Layer :
 Handles incoming HTTP requests and sends responses to the client.
+
 Service Layer :
 Contains the business logic of the application (e.g., calculating expiry status, handling operations).
+
 Repository Layer :
 Interacts with the database using Spring Data JPA.
+
 Entity Layer :
 Represents database tables (User, Document, Category).
+
 DTO Layer :
 Used to transfer data between client and server without exposing internal entities.
+
 Mapper Layer :
 Converts between Entity and DTO to keep the code clean and secure.
+
 Exception Layer : 
 Handles errors globally and returns meaningful responses.
 
@@ -88,9 +94,13 @@ Frontend Architecture -
 The frontend is also structured in a modular way:
 
 Pages - Represents full screens (Login, Dashboard, Add Document)
+
 Components - Reusable UI elements (Navbar)
+
 API Layer - Handles all backend API calls using Axios
+
 Types - Defines TypeScript interfaces for type safety
+
 Routes - Manages navigation between pages
 
  Flow:
