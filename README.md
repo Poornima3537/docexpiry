@@ -17,6 +17,7 @@ Track expiry dates
 Provide clear visibility of document status
 
 **Tech Stack**
+
 Backend:
 
 Java, 
@@ -60,7 +61,7 @@ Handles API communication between frontend and backend in a clean and structured
 
 This project follows a Layered Architecture (Separation of Concerns) to keep the code clean, maintainable, and scalable.
 
- Backend Architecture (Spring Boot) - 
+** Backend Architecture (Spring Boot) - **
 
 The backend is divided into multiple layers:
 
@@ -89,7 +90,7 @@ Flow:
 Controller → Service → Repository → Database
 
 
-Frontend Architecture - 
+**Frontend Architecture - **
 
 The frontend is also structured in a modular way:
 
@@ -142,12 +143,16 @@ http://localhost:8080/swagger-ui.html
 
 User Authentication :
 Users can register and log in. Each user has a separate account, ensuring privacy of their documents.
+
 Category Management :
 Users can create custom categories to organize documents (e.g., Personal, Work, Education).
+
 Document Management :
 Add documents with name, category, and expiry date. Each document is linked to a user and a category.
+
 Dashboard View :
 Displays all documents with details like name, category, expiry date, and status.
+
 Expiry Status Tracking :
 Automatically shows:
 Expired, 
