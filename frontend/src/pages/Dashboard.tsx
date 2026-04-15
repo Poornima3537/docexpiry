@@ -14,7 +14,7 @@ const Dashboard = ({ setIsLoggedIn }: any) => {
     fetchCategories();
   }, []);
 
-  
+  console.log(categories);
 const fetchCategories = async () => {
   const data = await getCategories();
   setCategories(data);
